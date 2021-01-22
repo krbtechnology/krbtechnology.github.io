@@ -1,0 +1,163 @@
+body{
+    margin: 100;
+   
+    font-family: 'Montserrat',sans-serif;
+    font-size: xx-large;
+    color:rgb(0, 0, 0)
+    
+
+    
+}
+p,blockquote
+{
+    font-size:75;
+    color: black;
+}
+p,h1
+{
+    font: outline;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: 25;
+    color: rgb(0, 17, 255);
+    line-height: 1.6em;
+}
+title
+{
+    color: rgb(245, 81, 81);
+    size: 15;
+    font-optical-sizing:20 ;
+}
+ul
+{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.container
+{
+    text-align: center;
+    padding: .8em 1.2em ;
+    background-color : rgb(255, 255, 255);
+}
+.logo
+{
+    width: 130px;
+  
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.figure
+{
+color: rgb(200, 255, 0);
+background-color: honeydew;
+display: block;
+  margin-left: center;
+  margin-right: center;
+  width: 50%;
+ 
+
+}
+.exit-desktop
+{
+    display: none;
+}
+.menu
+{
+    width: 70px;
+    margin-top:45%;
+}
+.server
+{
+width: 70%;
+margin: 2em auto 2em 15%;
+}
+.h1,strong
+{
+font-size: xx-large;
+color:rgb(0, 0, 0);
+text-align: center;
+}
+.pink-container
+{
+    width: 100%;
+  
+    background-color: rgb(255, 254, 254);
+}
+.redcontainer
+{
+    width : 100%;
+   
+    
+}
+.man
+{
+    background:rgb(0, 195, 255);
+    justify-content: space-between;
+    image-rendering: center;
+    align-items: center;
+    font-size: xx-large;
+    align-items:center;
+    margin-top:15%;
+    padding:4em 0 2em;
+    border-top-left-radius:40px;
+    text-align: center;
+     border-top-left-radius: 40px; 
+     border-top-right-radius: 40px; 
+     border-bottom-left-radius:40px;
+     border-bottom-right-radius:40px;
+    
+
+
+
+}
+
+column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    font color: black;
+  }  
+  img {
+    border-radius: 30%;
+  }
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+.container
+{
+ color: black;
+}
+.facebook
+{
+    border-radius: 10%;
+    margin :125;
+    align-items: baseline;
+    
+}
+.instagram
+{
+    border-radius: 10%;
+    margin :125;
+    align-items: baseline;
+}
